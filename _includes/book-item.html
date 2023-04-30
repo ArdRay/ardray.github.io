@@ -1,0 +1,9 @@
+<li>
+    <div class="book-item">
+      {% if page.current-year == entry.year %}
+        <a href="{{ book.link }}"><img class="cover" src="{{ book.image }}" alt="{{ book.title }}" /></a>
+      {% endif %}
+      <div class="book-info">
+        <h3><a class="book-title" href="{{ book.link }}">{{ book.title | smartify }}</a></h3>
+        <p class="book-author">{{ book.author }}</p>
+        <p>{{ book.description | smartify }}</p>

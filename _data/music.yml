@@ -1,0 +1,40 @@
+list:
+  - year: 2022
+    music:
+      most_listened_tracks:
+        - title: "And So It Went (feat. Tom Morello)"
+          artist: "The Pretty Reckless"
+          image: https://upload.wikimedia.org/wikipedia/en/a/a5/THE-PRETTY-RECKLESS-and-so-it-went-Tom-Morello.png
+          times_listened: 56
+        - title: "New Low"
+          artist: "Middle Class Rut"
+          image: https://t2.genius.com/unsafe/655x655/https%3A%2F%2Fimages.genius.com%2Fbb8b26679cbf954dd68615e5690260e3.1000x1000x1.jpg
+          times_listened: 43
+        - title: "Real Late Starter"
+          artist: "Nerina Pallot"
+          image: https://upload.wikimedia.org/wikipedia/en/1/15/Reallatestarter.jpg
+          times_listened: 31
+        - title: "Step To Me"
+          artist: "Thousand Foot Krutch"
+          image: https://i1.sndcdn.com/artworks-Or0noq4kVjyJ-0-t500x500.jpg
+          times_listened: 31
+        - title: "I Am Above"
+          artist: "In Flames"
+          image: https://lastfm.freetls.fastly.net/i/u/770x0/c0063da7ca23759b2ee365ac53dbc484.jpg#c0063da7ca23759b2ee365ac53dbc484
+          times_listened: 30
+      most_listened_artists:
+        - artist: "The Pretty Reckless"
+          image: https://e-cdn-images.dzcdn.net/images/artist/b4c924d01fae52989798f67c62f367c1/264x264-000000-80-0-0.jpg
+          hours_listened: 30
+        - artist: "Nightwish"
+          image: https://e-cdn-images.dzcdn.net/images/artist/94c0ac2bbae9b1e7f18b70e84c6c21db/264x264-000000-80-0-0.jpg
+          hours_listened: 24
+        - artist: "Loreena McKennitt"
+          image: https://e-cdn-images.dzcdn.net/images/artist/b1bdf763455ae6f42f605bb942908af8/264x264-000000-80-0-0.jpg
+          hours_listened: 17
+        - artist: "Beyond The Black"
+          image: https://e-cdn-images.dzcdn.net/images/artist/7c5a68e02de475439c59c71c7694383d/264x264-000000-80-0-0.jpg
+          hours_listened: 15
+        - artist: "Within Temptation"
+          image: https://e-cdn-images.dzcdn.net/images/artist/774bd6174b62f63a05d166ed81edbf9b/264x264-000000-80-0-0.jpg
+          hours_listened: 13

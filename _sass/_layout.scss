@@ -1,0 +1,627 @@
+/**
+ * Site header
+ */
+
+ .header-intro {
+    font-size: 18px;
+    color: #606060;
+}
+
+.header-intro p {
+    font-weight: 400;
+}
+
+.header-intro h2 {
+    
+    font-size: 1.5em;
+}
+
+.header-intro a, .header-intro a:visited {
+    color: #000;
+}
+
+.header-intro a:hover {
+    color: $brand-color;
+    text-decoration: none;
+}
+
+.site-header {
+    margin-bottom: 21px;
+    position: relative;
+    // margin: 0 auto;
+    text-align: center;
+    max-width: 1024px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.site-header a.site-title {
+    color: #fff;
+    text-align: center;
+}
+
+.site-title {
+    position: relative;
+    padding: 1em 0;
+    display: block;
+    font-weight: 600;
+    left: 60px;
+
+    &,
+    &:visited, &:hover {
+        text-decoration: none;
+        color: $grey-color-dark;
+    }
+}
+
+a .site-title {
+    color: #5badf0;
+    color: #5694f1;
+}
+
+.page-link {
+    display: inline-block;
+    line-height: 100%;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+nav.site-nav {
+    float: right;
+    height: 100%;
+    margin: 19px 15px;
+
+    .page-link {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    a.page-link {
+        text-decoration: underline;
+    }
+}
+
+.header-thumb {
+    width: 70px;
+    float: left;
+    margin: -15px 15px 0 0;
+}
+
+/* About page styles */
+
+.about {
+    margin: 1em auto;
+    max-width: 700px;
+    padding: 0.5em;
+}
+
+.about h2 {
+    font-size: 1.1em;
+}
+
+.about-image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../assets/images/header.jpg');
+}
+
+.header-badge {
+    color: white;
+    z-index: 2;
+    bottom: 0;
+    padding: 2.3rem 2.3rem;
+    width: 100%;
+    -webkit-transition: background ease-in-out 0.5s;
+    transition: background ease-in-out 0.5s;
+
+    h1 {
+        color: white;
+    }
+
+    p {
+        margin-top: -1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .about-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../assets/images/header-medium.jpg'); 
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .about-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../assets/images/header-small.jpg');
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .about-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../assets/images/header-verysmall.jpg');
+        //height: 350px;
+    }
+    #words-and-maps {
+        margin: 1rem;
+    }
+    .header-badge
+        h1 {
+            font-size: 1.7rem;
+            margin-bottom: .6em;
+        }
+}
+
+@media only screen and (max-width: 450px) {
+    img[src*="#float"] {
+        float: right;
+        width: 10em;
+     }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    // box-shadow: inset 0 1px 0 #DFE1E4;
+    padding: 40px 0 0 0;
+    margin-top: 100px;
+}
+
+.site-footer p {
+    color: #606060;
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit * .5;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+
+/**
+ * Page content
+ */
+
+.page-heading {
+    font-size: 20px;
+}
+
+#post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit * .65;
+    }
+}
+
+
+#post-list a {
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+/*=========================================
+Post List and items
+=========================================== */
+#post-list,#archive-list {
+    margin-top: 1rem;
+}
+
+#post-list li,#archive-list li {
+    list-style-type: none;
+}
+
+#post-list li:last-child {
+    margin-bottom: 0;
+}
+
+#post-list li+li {
+    padding-top: $spacing-unit * .70;
+}
+
+#post-list a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    font: 600 21px/1.5 $base-font-family;
+}
+
+#post-list a:hover {
+    color: $brand-color-light;
+}
+
+
+#post-list h2 {
+    font: 800 1.3em $heading-font-family;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    max-width: 500px;
+    margin-top: 2px;
+    margin-bottom: .2em;
+}
+
+#post-list p {
+    font: normal 19px/1.4em $base-font-family;
+    font-weight: 300;
+    color: $grey-color-dark;
+    max-width: 500px;
+    margin-top: 2px;
+}
+
+
+#intro-text {
+    padding-top: 10px;
+}
+
+#post-list .dates {
+    float: right;
+    position: relative;
+    top: 1px;
+    font: 300 17px/1.8 $base-font-family;
+    color: $grey-color-dark;
+}
+
+@media only screen and (max-width: 640px) {
+    #post-list .dates {
+        float: none;
+        display: block;
+    }
+}
+
+#post-list-footer {
+    border-top: 1px solid #DFE1E4;
+    margin-top: 20px;
+    padding-top: 100px;
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color-dark;
+    margin-top: -1em;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+/* Links */
+
+a {
+    color: $brand-color;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: $brand-color-dark;
+    }
+}
+
+.post a:hover {
+    color: $brand-color-light;
+}
+
+/**
+ * Posts
+ */
+
+.post-title {
+    line-height: 1.2;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 30px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+.post aside {
+    background-color: $grey-color-light;
+    padding: 1.2em;
+    margin: 1em 0;
+    border-radius: 12px;
+}
+
+.related {
+    padding: 1.2em 0 5em 0;
+}
+.related li {
+    list-style: none;
+}
+.related li .post-meta {
+    font-size: 15px;
+}
+.related a {
+    color: $brand-color;
+}
+
+.related a:hover {
+    color: $brand-color-light;
+}
+
+// Tags
+
+.tag-group {
+    margin: -.2rem 0 3.5rem 0;
+}
+
+.tags {
+    display: inline-block;
+    color: $grey-color-dark;
+    list-style: none;
+    margin-right: .3rem;
+    margin-bottom: .7rem;
+
+    > a {
+        border: 1px solid $grey-color-dark;
+        padding: 0.45em 0.5em;
+        border-radius: 0.4em;
+        font-size: 0.8em;
+        font-weight: 300;
+        color: $grey-color-dark;
+        text-decoration: none;
+
+        &:hover {
+            color: $brand-color;
+            border-color: $brand-color;
+        }
+    }
+}
+    
+.post-date {
+    top: 1px;
+    font: 300 17px/1.8 $base-font-family;
+    color: #878787;
+}
+
+
+// PAGINATION
+.pagination {
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.pagination-link {
+    display: inline-block;
+    color: #29353a;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 7px 18px 6px;
+    text-decoration: none;
+}
+
+.next {
+    float: right;
+}
+
+.pagination-link:hover {
+    text-decoration: none;
+    color: #0099e6;
+}
+
+span.arrow {
+    position: relative;
+    top: 0;
+    font-size: 1em;
+}
+
+/* table */
+
+
+table {
+    font-size: 0.85em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+  
+    & + table {
+      margin-top: 1em;
+    }
+  }
+  
+  thead {
+    border-bottom: 2px solid;
+  }
+  
+  th {
+    background-color: #fff;
+    padding: 0.5em;
+    font-weight: bold;
+    text-align: left;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+  }
+  
+  td {
+    padding: 0.6em;
+    border-bottom: 1px solid;
+  }
+  
+  tr,
+  td,
+  th {
+    vertical-align: middle;
+  }
+
+/* books */
+
+.cover {
+    float: left;
+    width: 150px;
+    padding: 0 1.5rem 1rem 0;
+}
+
+.book-list {
+    margin-top: 2em;
+    margin-left: 0;
+    list-style-type: none;
+    display: block;
+}
+
+.book-item {
+    display: table;
+    width: 100%;
+    margin-bottom: 2rem;
+    clear: left;
+}
+
+.book-title {
+    font-family: $italic-font-family;
+    font-style: italic;
+    text-decoration: none;
+    color: $brand-color;
+
+    &:visited {
+        color: $grey-color-dark;
+      }
+
+        &:hover {
+        color: $brand-color-light;
+        }  
+}
+
+.book-author {
+    color: $grey-color-dark;
+    font-size: 0.8em;
+    margin-top: -8px;
+    margin-bottom: 0.8em;
+    line-height: 1.3;
+}
+
+.music-section {
+    h3 {
+        display: inline;
+        font: 800 1.0em $heading-font-family;
+        line-height: 3.3;
+        letter-spacing: -1px;
+        max-width: 100px;
+        // margin-top: 4px;
+        margin-bottom: .9em;
+    }
+}
+
+/* Heading styling used for book/music years */
+.line-header {
+    padding-top: 1rem;
+    border-bottom: dotted 1px $grey-color-dark;
+
+    > h2 {
+        display: inline;
+    }
+}
+
+.details {
+    color: $grey-color-dark;
+    font-size: 0.8em;
+    padding-left: .5rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .cover {
+        float: none;
+    }
+}
+
+/* music */
+
+.cover {
+    float: left;
+    width: 150px;
+    padding: 0 1.5rem 1rem 0;
+}
+
+.music-list {
+    margin-top: 0.5em;
+    margin-left: 0;
+    list-style-type: none;
+    display: block;
+}
+
+.music-item {
+    display: table;
+    width: 100%;
+    margin-bottom: 2rem;
+    clear: left;
+}
+
+.music-title {
+    font-family: $italic-font-family;
+    font-style: italic;
+    text-decoration: none;
+    color: $brand-color;
+
+    &:visited {
+        color: $grey-color-dark;
+      }
+
+        &:hover {
+        color: $brand-color-light;
+        }  
+}
+
+.music-artist {
+    color: $grey-color-dark;
+    font-size: 0.8em;
+    margin-top: -8px;
+    margin-bottom: 0.8em;
+    line-height: 1.3;
+}
+
+.music-times-played {
+    color: $grey-color-dark;
+    font-size: 0.8em;
+    margin-top: -8px;
+    margin-bottom: 0.8em;
+    line-height: 3.3;
+}

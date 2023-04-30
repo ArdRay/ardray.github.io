@@ -1,0 +1,350 @@
+/**
+ * Reset some basic elements
+ */
+ body, h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre, hr,
+ dl, dd, ol, ul, figure {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /* Reset */
+ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+ *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ 
+ 
+ /* Spacing */
+ .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
+ margin-bottom: 20px;
+ }
+ 
+ 
+ /**
+  * Basic styling
+  */
+ 
+ html, body {   
+     height: 100%;
+     overflow-x: hidden;
+ }
+ 
+ body {
+     font-family: $base-font-family;
+     font-size: $base-font-size;
+     line-height: $base-line-height;
+     color: $text-color;
+     background-color: $background-color;
+     -webkit-text-size-adjust: 100%;
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizeLegibility;
+ 
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     -moz-font-feature-settings: "liga", "kern";
+     font-weight: 300;
+ }
+ 
+ /**
+  * Set `margin-bottom` to maintain vertical rhythm
+  */
+ 
+ p, blockquote, pre,
+ ul, ol, dl, figure, video,
+ %vertical-rhythm {
+     margin-bottom: $spacing-unit * .67;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+     font-family: $heading-font-family;
+     letter-spacing: -1px;
+     margin-bottom: $spacing-unit * .2;
+ }
+ 
+ 
+ hr {
+     background-color: #DFE1E4;
+     width: 100px;
+     height: 1px;
+     border: 0;
+     margin: 2rem auto;
+ }
+ 
+ sup {
+     vertical-align: super;
+     font-size: smaller;
+ }
+ 
+ /**
+  * Images
+  */
+ 
+ img {
+     max-width: 100%;
+     vertical-align: middle;
+ }
+ 
+ img[src*="#float"] {
+     float: right;
+     width: 17em;
+     padding: 1rem;
+  }
+ 
+ img[src$="#full"] {
+     width: 100vw;
+     max-width: none;
+     margin-left: calc(50% - 50vw);
+     margin-right: calc(50% - 50vw);
+ }
+ 
+ // Video
+ 
+ .videowrapper {
+     position: relative;
+     padding-bottom: 56.25%; /* 16:9 */
+     margin-bottom: 1.7rem;
+     height: 0;
+ }
+ .videowrapper iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .full-vid {
+     width: 100vw;
+     max-width: none;
+     margin-left: calc(50% - 50vw);
+     margin-right: calc(50% - 50vw);
+ }
+ 
+ /**
+  * Figures
+  */
+ figure > img {
+     display: block;
+ }
+ 
+ figcaption {
+     font-size: $tiny-font-size;
+     text-align: center;
+     margin: -1rem 0 2rem 0;
+ }
+ 
+ 
+ 
+ /**
+  * Lists
+  */
+ ul, ol {
+     margin-left: $spacing-unit;
+ }
+ 
+ li {
+     list-style-position: outside;
+     > ul,
+     > ol {
+          margin-bottom: 0;
+     }
+ }
+ 
+ article li {
+     margin-bottom: 0.7em;
+ }
+ 
+ .unmargin {
+     margin-left: 0;
+ }
+ 
+ /**
+  * Headings
+  */
+ h1, h2, h3, h4, h5, h6 {
+     font-weight: bold;
+     line-height: 1.2;
+ 
+     > em, > cite {
+         font-family: $italic-font-family;
+         font-style: italic;
+     }
+ }
+ 
+ h1 {
+     font-size: 2em;
+     color: #222;
+     font-weight: bold;
+ }
+ 
+ .title {
+     color: #29353a;
+     font-size: 1.4em;
+ }
+ 
+ //Paragraph
+ p {
+     line-height: 1.6;
+     font-weight: 300;
+ }
+ 
+ .subtitle {
+     font-size: 1.3rem;
+     margin-top: -1em;
+ }
+ 
+ .sub-2 {
+     text-decoration: none;
+     margin-top: -.3em;
+ }
+ 
+ .post-subtitle {
+     font-size: 1rem;
+ }
+ 
+ // Styling
+ em, i, cite {
+     font-style: italic;
+ }
+ 
+ strong {
+     font-weight: 600;
+ }
+ 
+ /** Teams **/
+ 
+ .ducks {
+     font-weight: 700;
+     color: #154733;
+ }
+ 
+ .enemy {
+     font-weight: 700;
+     color: #4B2E83;
+ }
+ 
+ // Footnotes  
+ 
+ .footnote,
+ .footnotes {
+     font-size: $tiny-font-size;
+ }
+ 
+ /**
+  * Blockquotes
+  */
+ blockquote {
+     color: $grey-color-medium;
+     border-left: 1px solid $grey-color;
+     padding-left: $spacing-unit * .5;
+     font-size: 22px;
+     font-style: italic;
+ 
+     > :last-child {
+         margin-bottom: 0;
+     }
+ }
+ 
+ /**
+  * Code formatting
+  */
+ 
+ pre,
+ code {
+     font-size: 17px;
+     font-family: 'Menlo', 'Monaco', "Courier New", monospace;
+     word-break: normal;
+     word-wrap: normal;
+     overflow: auto;
+ }
+ 
+ code {
+     padding: 1px 2px;
+ }
+ 
+ .lineno {
+     font-size: 10px;
+     padding-right: 10px;
+     color: #aaa;
+ }
+ 
+ pre {
+     padding: 8px 12px;
+     // overflow-x: scroll;
+ 
+     word-wrap: break-word;
+     word-break: break-all;
+     -webkit-font-smoothing: subpixel-antialiased;
+     -moz-osx-font-smoothing: auto;
+     padding: 16px;
+     padding-left: 21px;
+     padding-bottom: 14px;
+     display: block;
+     line-height: 1.4;
+    //  margin-left: calc(75% - 50vw);
+    //  margin-right: calc(75% - 50vw);
+ 
+     > code {
+         border: 0;
+         padding-right: 0;
+         padding-left: 0;
+     }
+ 
+     @media only screen and (max-width: 1042px) {
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: $spacing-unit;
+     }
+ 
+ }
+ 
+ 
+ /**
+  * Wrapper
+  */
+ .wrapper {
+     max-width: 700px;
+     margin: 0 auto;
+     padding: 0.5rem 0px;
+     @extend %clearfix;
+ 
+     @include media-query($on-laptop) {
+         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+         padding-right: $spacing-unit * .5;
+         padding-left: $spacing-unit * .5;
+     }
+ }
+ 
+ 
+ 
+ /**
+  * Clearfix
+  */
+ %clearfix {
+ 
+     &:after {
+         content: "";
+         display: table;
+         clear: both;
+     }
+ }
+ 
+ 
+ 
+ /**
+  * Icons
+  */
+ .icon {
+ 
+     > svg {
+         display: inline-block;
+         width: 16px;
+         height: 16px;
+         vertical-align: middle;
+ 
+         path {
+             fill: $grey-color;
+         }
+     }
+ }
+ 

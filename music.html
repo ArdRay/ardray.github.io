@@ -1,0 +1,65 @@
+---
+layout: default
+title: Music
+current-year: 2023
+---
+<h1 id="top">{{ page.title }}</h1>
+
+<!-- <p>I started this reading list at the beginning of 2019. It includes books I've started or completed since the beginning of that year.</p>
+
+<p>I prefer to read analog books, but I increasingly listen to audiobooks. Audiobooks are marked with 🎧.</p>
+
+<p>Book cover art is displayed only for the current year.</p> -->
+
+<!--Anchor nav for years, but only if more than one exists-->
+{% assign musicYears = site.data.music.list | size %}
+{% if musicYears > 1 %}
+<ul class="tag-group">
+  {% for entry in site.data.music.list %}
+  {% assign musicSize = entry.music | size %}
+  <li class="tags"><a href="#{{entry.year}}-music">{{ entry.year }}</a></li>
+  {% endfor %}  
+</ul>
+{% endif %}
+
+<!--Subheadings for each year and number of books for that year-->
+{% for entry in site.data.music.list %}
+  <div>
+    <div class="line-header">
+        <h2 id="{{entry.year}}-music">{{ entry.year }}</h2><span class="details"></span>
+    </div>  
+    <div>
+      {% comment %} Music for each year - Most listened tracks {% endcomment %}
+      <div class="music-section">
+        <h3 id="{{entry.year}}-music-most-listened-tracks">Most listened tracks</h3>
+      </div>
+      <ul class="music-list">
+        {% for music in entry.music.most_listened_tracks %}
+          {% include music-item.html %}
+                <p class="post-meta"></p>
+              </div>
+            </div> 
+          </li>
+        {% endfor %}   
+      </ul>
+    </div>
+
+    <div>
+        {% comment %} Music for each year - Most listened artists {% endcomment %}
+        <div class="music-section">
+          <h3 id="{{entry.year}}-music-most-listened-artists">Most listened artists</h3>
+        </div>
+        <ul class="music-list">
+          {% for music in entry.music.most_listened_artists %}
+            {% include music-artist-item.html %}
+                  <p class="post-meta"></p>
+                </div>
+              </div> 
+            </li>
+          {% endfor %}   
+        </ul>
+      </div>
+
+  </div>
+  <p class="details"><a href="#top">Back to top</a></p>
+{% endfor %}

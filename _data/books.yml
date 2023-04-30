@@ -1,0 +1,337 @@
+list:
+  - year: 2023
+    books:
+      - title: "The Psychology of Totalitarianism"
+        author: Mattias Desmet
+        link: https://www.goodreads.com/book/show/60430391-the-psychology-of-totalitarianism
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1646654618i/60430391.jpg
+        description: ""
+        completed: Next
+      - title: "Principles of Economics"
+        author: Saifedean Ammous
+        link: https://www.amazon.com/Principles-Economics-Saifedean-Ammous/dp/B0BZQKFPLK
+        image: https://m.media-amazon.com/images/I/31ouOIQbeuL._SX329_BO1,204,203,200_.jpg
+        description: ""
+        completed: Next
+      - title: "Dangerous Personalities: An FBI Profiler Shows You How to Identify and Protect Yourself from Harmful People"
+        author: Joe Navarro, Toni Sciarra Poynter
+        link: https://www.goodreads.com/book/show/20696047-dangerous-personalities
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1396818066i/20696047.jpg
+        description: ""
+        completed: Next
+      - title: "The Blank Slate: The Modern Denial of Human Nature"
+        author: Steven Pinker
+        link: https://www.goodreads.com/book/show/5752.The_Blank_Slate
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386925462i/5752.jpg
+        description: ""
+        completed: Next
+      - title: "Why Beautiful People Have More Daughters"
+        author: Alan S. Miller, Satoshi Kanazawa
+        link: https://www.goodreads.com/book/show/1519450.Why_Beautiful_People_Have_More_Daughters
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1439318247i/1519450.jpg
+        description: ""
+        completed: Next
+      - title: "Sex at Dawn"
+        author: Christopher Ryan, Cacilda Jethá
+        link: https://www.goodreads.com/book/show/9522254-sex-at-dawn
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1307389873i/9522254.jpg
+        description: ""
+        completed: Next
+      - title: "The Intelligence Paradox: Why the Intelligent Choice Isn't Always the Smart One"
+        author: Satoshi Kanazawa
+        link: https://www.goodreads.com/book/show/13347382-the-intelligence-paradox
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1341872317i/13347382.jpg
+        description: ""
+        completed: Next
+      - title: "The Ape that Understood the Universe: How the Mind and Culture Evolve"
+        author: Steve Stewart-Williams
+        link: https://www.goodreads.com/en/book/show/38651604
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1524625393i/38651604.jpg
+        description: ""
+        completed: Next
+      - title: "The Evolution Of Desire"
+        author: David M. Buss
+        link: https://www.goodreads.com/book/show/29502361-the-evolution-of-desire
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1470282763i/29502361.jpg
+        description: ""
+        completed: Next
+      - title: "Why Women Have Sex"
+        author: Cindy M. Meston, David M. Buss
+        link: https://www.goodreads.com/book/show/5751876-why-women-have-sex
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442915858i/5751876.jpg
+        description: ""
+        format: audiobook
+        completed: 2023-04-28
+      - title: "The Rational Male: Positive Masculinity"
+        author: Rollo Tomassi
+        link: https://www.goodreads.com/book/show/35832854-the-rational-male
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1501094024i/35832854.jpg
+        description: ""
+        completed: 2023-03-11
+      - title: "The Rational Male: Preventive Medicine"
+        author: Rollo Tomassi
+        link: https://www.goodreads.com/book/show/25101857-the-rational-male-preventive-medicine
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1431937323i/25101857.jpg
+        description: ""
+        completed: 2023-02-18
+      - title: "The Rational Male"
+        author: Rollo Tomassi
+        link: https://www.goodreads.com/book/show/18634307-the-rational-male
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1381181527i/18634307.jpg
+        description: ""
+        completed: 2023-01-20
+  - year: 2022
+    books:
+      - title: "The Girl on the Train"
+        author: Paula Hawkins
+        link: https://www.goodreads.com/book/show/22557272-the-girl-on-the-train
+        description: ""
+        completed: 2022-10-11
+      - title: "The Wall Speaks"
+        author: Jerr rreJ
+        link: https://www.goodreads.com/book/show/57001762-the-wall-speaks
+        description: ""
+        completed: 2022-09-14
+      - title: "Atomic Habits"
+        author: James Clear
+        link: https://www.goodreads.com/book/show/40121378-atomic-habits
+        description: ""
+        completed: 2022-08-10
+      - title: "Listen, Little Man!"
+        author: Reich, Wilhelm
+        link: https://www.goodreads.com/book/show/339387.Listen_Little_Man_
+        description: ""
+        completed: 2022-07-03
+      - title: "You Love Me"
+        author: Caroline Kepnes
+        link: https://www.goodreads.com/book/show/11989.The_Plague
+        description: ""
+        format: audiobook
+        completed: 2022-04-09
+      - title: "The Anarchist Handbook"
+        author: Michael Malice
+        link: https://www.goodreads.com/book/show/58039014-the-anarchist-handbook
+        description: ""
+        format: audiobook
+        completed: 2022-03-15
+      - title: "Hidden Bodies"
+        author: Caroline Kepnes
+        link: https://www.goodreads.com/book/show/29430824-hidden-bodies
+        description: ""
+        format: audiobook
+        completed: 2022-02-28
+      - title: "The Iodine Crisis: What You Don't Know About Iodine Can Wreck Your Life"
+        author: Lynne Farrow
+        link: https://www.goodreads.com/book/show/17847725-the-iodine-crisis
+        description: ""
+        completed: 2022-02-10
+      - title: "You"
+        author: Caroline Kepnes
+        link: https://www.goodreads.com/book/show/36430011-you
+        description: ""
+        format: audiobook
+        completed: 2022-01-24
+  - year: 2021
+    books:
+      - title: "The Plague"
+        author: Albert Camus
+        link: https://www.goodreads.com/book/show/11989.The_Plague
+        description: ""
+        format: audiobook
+        completed: 2021-12-24
+      - title: "Atlas Shrugged"
+        author: Ayn Rand
+        link: https://www.goodreads.com/book/show/662.Atlas_Shrugged
+        description: ""
+        completed: 2021-10-21
+      - title: "The Fiat Standard: The Debt Slavery Alternative to Human Civilization"
+        author: Saifedean Ammous
+        link: https://www.goodreads.com/book/show/59539733-the-fiat-standard
+        description: ""
+        completed: 2021-08-14
+      - title: "The Biggest Bluff: How I Learned to Pay Attention, Master Myself, and Win"
+        author: Maria Konnikova
+        link: https://www.goodreads.com/book/show/49814228-the-biggest-bluff
+        description: ""
+        format: audiobook
+        completed: 2021-06-28
+      - title: "Sapiens: A Brief History of Humankind"
+        author: Yuval Noah Harari
+        link: https://www.goodreads.com/book/show/23692271-sapiens
+        description: ""
+        format: audiobook
+        completed: 2021-06-15
+      - title: "The Price of Tomorrow: Why Deflation is the Key to an Abundant Future"
+        author: Jeff Booth
+        link: https://www.goodreads.com/book/show/50157837-the-price-of-tomorrow
+        description: ""
+        format: audiobook
+        completed: 2021-04-27
+      - title: "Layered Money: From Gold and Dollars to Bitcoin and Central Bank Digital Currencies"
+        author: Nik Bhatia
+        link: https://www.goodreads.com/book/show/56598876-layered-money
+        description: ""
+        format: audiobook
+        completed: 2021-04-10
+      - title: "The Sovereign Individual: Mastering the Transition to the Information Age"
+        author: James Dale Davidson, William Rees-Mogg
+        link: https://www.goodreads.com/book/show/82256.The_Sovereign_Individual
+        description: ""
+        completed: 2021-02-28
+      - title: "King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine"
+        author: Robert L. Moore, Douglas Gillette
+        link: https://www.goodreads.com/book/show/91781.King_Warrior_Magician_Lover
+        description: ""
+        format: audiobook
+        completed: 2021-01-14
+  - year: 2020
+    books:
+      - title: "The Fourth Turning: An American Prophecy"
+        author: William Strauss, Neil Howe
+        link: https://www.goodreads.com/book/show/670089.The_Fourth_Turning
+        description: ""
+        completed: 2021-06-15
+      - title: "What I Learned Losing a Million Dollars"
+        author: Jim Paul
+        link: https://www.goodreads.com/book/show/1334384.What_I_Learned_Losing_a_Million_Dollars
+        description: ""
+        completed: 2021-06-15
+      - title: "Animal Farm"
+        author: George Orwell
+        link: https://www.goodreads.com/book/show/3149348-animal-farm
+        description: ""
+        completed: 2020-06-15
+  - year: 2019
+    books:
+      - title: "The Creature from Jekyll Island: A Second Look at the Federal Reserve"
+        author: G. Edward Griffin
+        link: https://www.goodreads.com/book/show/66499.The_Creature_from_Jekyll_Island
+        description: ""
+        format: audiobook
+        completed: 2019-12-28
+      - title: "Playing with FIRE (Financial Independence Retire Early)"
+        author: Scott Rieckens
+        link: https://www.goodreads.com/book/show/41732254-playing-with-fire-financial-independence-retire-early
+        description: ""
+        completed: 2019-07-12
+      - title: "Permanent Record"
+        author: Edward Snowden
+        link: https://www.goodreads.com/book/show/46223297-permanent-record
+        description: ""
+        format: audiobook
+        completed: 2019-05-22
+      - title: "Economics in One Lesson: The Shortest & Surest Way to Understand Basic Economics"
+        author: Henry Hazlitt
+        link: https://www.goodreads.com/book/show/3028.Economics_in_One_Lesson
+        description: ""
+        completed: 2019-04-10
+  - year: 2018
+    books:
+      - title: "The Bitcoin Standard: The Decentralized Alternative to Central Banking"
+        author: Saifedean Ammous
+        link: https://www.goodreads.com/book/show/36448501-the-bitcoin-standard
+        description: ""
+        completed: 2018-11-28
+      - title: "The Unicorn Project"
+        author: Gene Kim
+        link: https://www.goodreads.com/book/show/44333183-the-unicorn-project
+        description: ""
+        format: audiobook
+        completed: 2018-08-28
+      - title: "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations"
+        author: Gene Kim, Patrick Debois, John Willis, Jez Humble
+        link: https://www.goodreads.com/book/show/26083308-the-devops-handbook
+        description: ""
+        completed: 2018-07-14
+      - title: "Thinking, Fast and Slow"
+        author: Daniel Kahneman
+        link: https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow
+        description: ""
+        completed: 2018-06-28
+      - title: "Extreme Ownership: How U.S. Navy SEALs Lead and Win"
+        author: Jocko Willink
+        link: https://www.goodreads.com/book/show/23848190-extreme-ownership
+        description: ""
+        format: audiobook
+        completed: 2018-05-11
+  - year: 2017
+    books:
+      - title: "The Subtle Art of Not Giving a F*ck"
+        author: Mark Manson
+        link: https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck
+        description: ""
+        format: audiobook
+        completed: 2017-09-24
+      - title: "Deep Work: Rules for Focused Success in a Distracted World"
+        author: Cal Newport
+        link: https://www.goodreads.com/book/show/25744928-deep-work
+        description: ""
+        format: audiobook
+        completed: 2017-07-10
+      - title: "Scrappy Little Nobody"
+        author: Anna Kendrick
+        link: https://www.goodreads.com/book/show/29868610-scrappy-little-nobody
+        description: ""
+        format: audiobook
+        completed: 2017-04-10
+      - title: "Astrophysics for People in a Hurry"
+        author: Neil deGrasse Tyson
+        link: https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry
+        description: ""
+        format: audiobook
+        completed: 2017-03-02
+  - year: 2016
+    books:
+      - title: "Antifragile: Things That Gain from Disorder"
+        author: Nassim Nicholas Taleb
+        link: https://www.goodreads.com/book/show/13530973-antifragile
+        description: ""
+        format: audiobook
+        completed: 2016-11-30
+      - title: "Skin in the Game: The Hidden Asymmetries in Daily Life"
+        author: Nassim Nicholas Taleb
+        link: https://www.goodreads.com/book/show/36064445-skin-in-the-game
+        description: ""
+        format: audiobook
+        completed: 2016-09-30
+      - title: "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets"
+        author: Nassim Nicholas Taleb
+        link: https://www.goodreads.com/book/show/38315.Fooled_by_Randomness
+        description: ""
+        format: audiobook
+        completed: 2016-08-12
+      - title: "The Black Swan: The Impact of the Highly Improbable"
+        author: Nassim Nicholas Taleb
+        link: https://www.goodreads.com/book/show/242472.The_Black_Swan?
+        description: ""
+        format: audiobook
+        completed: 2016-07-23
+  - year: 2014
+    books:
+      - title: "The Art of War"
+        author: Sun Tzu
+        link: https://www.goodreads.com/book/show/10534.The_Art_of_War
+        description: ""
+        completed: 2014-02-10
+      - title: "The 48 Laws of Power"
+        author: Robert Greene
+        link: https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power
+        description: ""
+        completed: 2014-01-30
+  - year: 2012
+    books:
+      - title: "Psychology of Crowds"
+        author: Gustave Le Bon
+        link: https://www.goodreads.com/book/show/23624994-psychology-of-crowds
+        description: ""
+        completed: 2012-07-30
+      - title: "Η ειρωνεία"
+        author: Vladimir Jankélévitch
+        link: https://www.goodreads.com/book/show/23266997
+        description: ""
+        completed: 2012-06-01
+      - title: "The Prince"
+        author: Niccolò Machiavelli
+        link: https://www.goodreads.com/book/show/28862.The_Prince
+        description: ""
+        completed: 2012-03-19

@@ -1,0 +1,79 @@
+---
+layout: default
+title: Reading
+current-year: 2023
+---
+<h1 id="top">{{ page.title }}</h1>
+
+<!--Anchor nav for years, but only if more than one exists-->
+{% assign bookYears = site.data.books.list | size %}
+{% if bookYears > 1 %}
+<ul class="tag-group">
+  {% for entry in site.data.books.list %}
+  {% assign bookSize = entry.books | size %}
+  <li class="tags"><a href="#{{entry.year}}-books">{{ entry.year }}
+    {% if bookSize %}
+      {% if bookSize == 1 %}<span class="details">{{ bookSize }} book
+      {% elsif bookSize > 1 %}<span class="details">{{ bookSize }} books
+      {% endif %}  
+    </span></a></li>
+    {% endif %} 
+  {% endfor %}  
+</ul>
+{% endif %}
+
+<!--Subheadings for each year and number of books for that year-->
+{% for entry in site.data.books.list %}
+  <div>
+    <div class="line-header">
+      {% assign bookSize = entry.books | size %}
+      {% if bookSize == 1 %}
+        <h2 id="{{entry.year}}-books">{{ entry.year }}</h2><span class="details">{{ bookSize }} book</span>
+      {% elsif bookSize > 1 %}
+        <h2 id="{{entry.year}}-books">{{ entry.year }}</h2><span class="details">{{ bookSize }} books</span>
+      {% else %}
+        <h2 id="{{entry.year}}-books">{{ entry.year }}</h2><span class="details">I haven't read any books this year.</span>
+      {% endif %}
+    </div>  
+    <div>
+      {% comment %} Books for each year {% endcomment %}
+      <ul class="book-list">
+        {% comment %} Books in progress {% endcomment %}
+        {% assign in_progress = entry.books | where: "completed", "In progress" %}
+        {% assign next_up = entry.books | where: "completed", "Next" %}
+        {% for book in in_progress %}
+          {% include book-item.html %}
+              <p class="post-meta">
+                <span>Status: </span><span style="color: #EB002B">{% if book.format == 'audiobook' %} 🎧 {{ book.completed }}{% else %} 📖 {{ book.completed }}{% endif %} {% if book.progress %}<span class="book-author">{{ book.progress }}%</span>{% endif %}</span>
+              </p>
+            </li>
+        {% endfor %}
+        {% for book in next_up %}
+          {% include book-item.html %}
+              <p class="post-meta">
+                <span>Status: </span><span style="color: #026431">📚 Next up</span>
+              </p>
+            </li>
+        {% endfor %}
+        {% comment %} Books that aren't in progress {% endcomment %}
+        {% for book in entry.books %}
+        {% unless book.completed == "In progress" or book.completed == "Next" %}
+          {% include book-item.html %}
+                <p class="post-meta"> 
+                  {% if book.completed == 'Abandoned' %}
+                    <span>Status: </span><span style="color: #EB002B">{{ book.completed }} ¯\_(ツ)_/¯ </span>
+                  {% else %}
+                    <span>Date completed: </span>{{ book.completed | date: "%B %-d, %Y" }}
+                  {% endif %}
+                  {% include book-format.html %}
+                </p>
+              </div>
+            </div> 
+          </li>
+        {% endunless %}   
+        {% endfor %}   
+      </ul>
+    </div>
+  </div>
+  <p class="details"><a href="#top">Back to top</a></p>
+{% endfor %}

@@ -1,0 +1,6 @@
+<li>
+    <div class="music-item">
+        <a href="{{ music.image }}"></a><img class="cover" src="{{ music.image }}" alt="{{ music.artist }}" />
+    <div class="music-info">
+        <h3><a class="music-title">{{ music.artist | smartify }}</a></h3>
+        <p class="music-times-played">Artist played: {{ music.hours_listened | smartify }} hours</p>
