@@ -268,6 +268,12 @@ list:
         description: ""
         format: audiobook
         completed: 2017-07-10
+      - title: "Superintelligence: Paths, Dangers, Strategies"
+        author: Nick Bostrom
+        link: https://www.goodreads.com/book/show/20527133-superintelligence
+        description: ""
+        format: audiobook
+        completed: 2017-06-04
       - title: "Scrappy Little Nobody"
         author: Anna Kendrick
         link: https://www.goodreads.com/book/show/29868610-scrappy-little-nobody

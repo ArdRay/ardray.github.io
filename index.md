@@ -11,7 +11,7 @@ A place to track a journey.
     <li>✍️ <a href="/posts">writings</a></li>
     <li>📚 <a href="/books">books</a></li>
     <li>♫ <a href="/music">music</a></li>
-    <li>🏞 <a href="/gallery">gallery</a></li>
+    <li>🖼️ <a href="/gallery">gallery</a></li>
 </ul>
 
 ## Hobby
