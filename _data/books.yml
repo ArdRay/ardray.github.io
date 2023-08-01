@@ -21,12 +21,6 @@ list:
         description: ""
         format: audiobook
         completed: Next
-      - title: "Why Beautiful People Have More Daughters"
-        author: Alan S. Miller, Satoshi Kanazawa
-        link: https://www.goodreads.com/book/show/1519450.Why_Beautiful_People_Have_More_Daughters
-        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1439318247i/1519450.jpg
-        description: ""
-        completed: Next
       - title: "Sex at Dawn"
         author: Christopher Ryan, Cacilda Jethá
         link: https://www.goodreads.com/book/show/9522254-sex-at-dawn

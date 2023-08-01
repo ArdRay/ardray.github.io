@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nextcloud: Your web server is not properly set up to resolve..."
-date:   2023-07-01
+date:   2023-08-01
 ---
 
 ## Issue
