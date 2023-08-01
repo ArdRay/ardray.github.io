@@ -6,6 +6,7 @@ list:
         link: https://www.amazon.com/Principles-Economics-Saifedean-Ammous/dp/B0BZQKFPLK
         image: https://m.media-amazon.com/images/I/31ouOIQbeuL._SX329_BO1,204,203,200_.jpg
         description: ""
+        format: audiobook
         completed: Next
       - title: "Dangerous Personalities: An FBI Profiler Shows You How to Identify and Protect Yourself from Harmful People"
         author: Joe Navarro, Toni Sciarra Poynter
@@ -18,6 +19,7 @@ list:
         link: https://www.goodreads.com/book/show/5752.The_Blank_Slate
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386925462i/5752.jpg
         description: ""
+        format: audiobook
         completed: Next
       - title: "Why Beautiful People Have More Daughters"
         author: Alan S. Miller, Satoshi Kanazawa
@@ -31,18 +33,33 @@ list:
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1307389873i/9522254.jpg
         description: ""
         completed: Next
-      - title: "The Ape that Understood the Universe: How the Mind and Culture Evolve"
-        author: Steve Stewart-Williams
-        link: https://www.goodreads.com/en/book/show/38651604
-        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1524625393i/38651604.jpg
-        description: ""
-        completed: Next
       - title: "The Evolution Of Desire"
         author: David M. Buss
         link: https://www.goodreads.com/book/show/29502361-the-evolution-of-desire
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1470282763i/29502361.jpg
         description: ""
         completed: Next
+      - title: "Hormonal"
+        author: Martie Haselton
+        link: https://www.goodreads.com/book/show/35134737-hormonal
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1497914196i/35134737.jpg
+        description: ""
+        format: audiobook
+        completed: 2023-08-01
+      - title: "The Ape that Understood the Universe: How the Mind and Culture Evolve"
+        author: Steve Stewart-Williams
+        link: https://www.goodreads.com/en/book/show/38651604
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1524625393i/38651604.jpg
+        description: ""
+        format: audiobook
+        completed: 2023-07-29
+      - title: "Niacin: The Real Story"
+        author: Andrew W. Saul MS PhD, Abram Hoffer MD PhD, Harold D. Foster PhD
+        link: https://www.goodreads.com/book/show/86177318-niacin
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1676850118i/86177318.jpg
+        description: ""
+        format: audiobook
+        completed: 2023-07-24
       - title: "The Psychology of Totalitarianism"
         author: Mattias Desmet
         link: https://www.goodreads.com/book/show/60430391-the-psychology-of-totalitarianism
@@ -54,6 +71,7 @@ list:
         link: https://www.goodreads.com/book/show/13347382-the-intelligence-paradox
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1341872317i/13347382.jpg
         description: ""
+        format: audiobook
         completed: 2023-06-01
       - title: "Why Women Have Sex"
         author: Cindy M. Meston, David M. Buss
