@@ -25,13 +25,13 @@ frontend fe_https
     log-format "%ci:%cp [%tr] %ft [[%hr]] %hs %{+Q}r"
 
     acl host-nextcloud hdr(host) -i cloud.domain.cloud
-    acl url_discovery path /.well-known/caldav /.well-known/carddav
-    acl url_webfinger path /.well-known/webfinger
-    acl url_nodeinfo path /.well-known/nodeinfo
+    acl url_discovery path_beg -i /.well-known/caldav /.well-known/carddav
+    acl url_webfinger path_beg -i /.well-known/webfinger
+    acl url_nodeinfo path_beg -i /.well-known/nodeinfo
 
-    http-request redirect location /remote.php/dav/ code 301 if url_discovery host-nextcloud
-    http-request redirect location /index.php/.well-known/webfinger code 301 if url_webfinger host-nextcloud
-    http-request redirect location /index.php/.well-known/nodeinfo code 301 if url_nodeinfo host-nextcloud
+    http-request redirect location https://%[hdr(host)]/remote.php/dav/ code 301 if url_discovery host-nextcloud
+    http-request redirect location https://%[hdr(host)]/index.php/.well-known/webfinger code 301 if url_webfinger host-nextcloud
+    http-request redirect location https://%[hdr(host)]/index.php/.well-known/nodeinfo code 301 if url_nodeinfo host-nextcloud
 
     http-response set-header Strict-Transport-Security "max-age=16000000; includeSubDomains;"
 
