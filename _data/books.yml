@@ -1,25 +1,11 @@
 list:
   - year: 2023
     books:
-      - title: "Principles of Economics"
-        author: Saifedean Ammous
-        link: https://www.amazon.com/Principles-Economics-Saifedean-Ammous/dp/B0BZQKFPLK
-        image: https://m.media-amazon.com/images/I/31ouOIQbeuL._SX329_BO1,204,203,200_.jpg
-        description: ""
-        format: audiobook
-        completed: Next
       - title: "Dangerous Personalities: An FBI Profiler Shows You How to Identify and Protect Yourself from Harmful People"
         author: Joe Navarro, Toni Sciarra Poynter
         link: https://www.goodreads.com/book/show/20696047-dangerous-personalities
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1396818066i/20696047.jpg
         description: ""
-        completed: Next
-      - title: "The Blank Slate: The Modern Denial of Human Nature"
-        author: Steven Pinker
-        link: https://www.goodreads.com/book/show/5752.The_Blank_Slate
-        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386925462i/5752.jpg
-        description: ""
-        format: audiobook
         completed: Next
       - title: "Sex at Dawn"
         author: Christopher Ryan, Cacilda Jethá
@@ -33,6 +19,19 @@ list:
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1470282763i/29502361.jpg
         description: ""
         completed: Next
+      - title: "Legends & Lattes"
+        author: Travis Baldree
+        link: https://www.goodreads.com/book/show/61242426-legends-lattes
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg
+        description: ""
+        completed: In progress
+      - title: "Principles of Economics"
+        author: Saifedean Ammous
+        link: https://www.amazon.com/Principles-Economics-Saifedean-Ammous/dp/B0BZQKFPLK
+        image: https://m.media-amazon.com/images/I/31ouOIQbeuL._SX329_BO1,204,203,200_.jpg
+        description: ""
+        format: audiobook
+        completed: 2023-10-14
       - title: "Hormonal"
         author: Martie Haselton
         link: https://www.goodreads.com/book/show/35134737-hormonal

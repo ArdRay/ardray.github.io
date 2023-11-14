@@ -6,7 +6,7 @@ layout: about
 
 A place to track a journey.
 
-## Words
+## Journey
 <ul class="contact-list">
     <li>✍️ <a href="/posts">writings</a></li>
     <li>📚 <a href="/books">books</a></li>
