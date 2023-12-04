@@ -1,4 +1,43 @@
 list:
+  - year: 2023
+    music:
+      most_listened_tracks:
+        - title: "My Curse Is My Redemption"
+          artist: "Xandria"
+          image: https://i.scdn.co/image/ab67616d0000b273932dc111b55b84d704258f9b
+          times_listened: 35 
+        - title: "I Am Above"
+          artist: "In Flames"
+          image: https://lastfm.freetls.fastly.net/i/u/770x0/c0063da7ca23759b2ee365ac53dbc484.jpg#c0063da7ca23759b2ee365ac53dbc484
+          times_listened: 34
+        - title: "Wintry Heart"
+          artist: "Sirenia"
+          image: https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F2de8aa82b4cbaa214bbb3839d16cc48e.856x856x1.png
+          times_listened: 32
+        - title: "Night Queen"
+          artist: "Thomas Bergersen"
+          image: https://images.genius.com/d03778f8027dd1eebb07b742ac092ec0.1000x1000x1.jpg
+          times_listened: 31
+        - title: "Beneath"
+          artist: "Delain"
+          image: https://images.genius.com/d0a23b0d06db867e32daafada86d99b4.1000x1000x1.jpg
+          times_listened: 30
+      most_listened_artists:
+        - artist: "Two Steps from Hell"
+          image: https://e-cdn-images.dzcdn.net/images/artist/5e5ed327cafe301ded24b0df554696ed/500x500-000000-80-0-0.jpg
+          hours_listened: 22
+        - artist: "Delain"
+          image: https://e-cdn-images.dzcdn.net/images/artist/1d4d5449eeac6a58a0be532768ffb396/500x500-000000-80-0-0.jpg
+          hours_listened: 16
+        - artist: "The Pretty Reckless"
+          image: https://e-cdn-images.dzcdn.net/images/artist/b4c924d01fae52989798f67c62f367c1/264x264-000000-80-0-0.jpg
+          hours_listened: 14
+        - artist: "Xandria"
+          image: https://e-cdn-images.dzcdn.net/images/artist/c8ad6241d6eac6ab90f4556562d8e254/500x500-000000-80-0-0.jpg
+          hours_listened: 14
+        - artist: "Thomas Bergersen"
+          image: https://e-cdn-images.dzcdn.net/images/artist/47b632605459debae50c8aefcdb1872c/500x500-000000-80-0-0.jpg
+          hours_listened: 12
   - year: 2022
     music:
       most_listened_tracks:

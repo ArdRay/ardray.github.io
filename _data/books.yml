@@ -25,6 +25,20 @@ list:
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg
         description: ""
         completed: In progress
+      - title: "Broken Money"
+        author: Lyn Alden
+        link: https://www.goodreads.com/book/show/197566578-broken-money
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692701772i/197566578.jpg
+        description: ""
+        format: audiobook
+        completed: In progress
+      - title: "The Way of the Superior Man"
+        author: David Deida
+        link: https://www.goodreads.com/book/show/33804873-the-way-of-the-superior-man
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1483705344i/33804873.jpg
+        description: ""
+        format: audiobook
+        completed: In progress
       - title: "Principles of Economics"
         author: Saifedean Ammous
         link: https://www.amazon.com/Principles-Economics-Saifedean-Ammous/dp/B0BZQKFPLK
