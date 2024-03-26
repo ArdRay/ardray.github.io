@@ -1,5 +1,5 @@
 list:
-  - year: 2023
+  - year: 2024
     books:
       - title: "Sex at Dawn"
         author: Christopher Ryan, Cacilda Jethá
@@ -32,6 +32,8 @@ list:
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg
         description: ""
         completed: 2024-01-10
+  - year: 2023
+    books:
       - title: "The Way of the Superior Man"
         author: David Deida
         link: https://www.goodreads.com/book/show/33804873-the-way-of-the-superior-man
