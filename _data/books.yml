@@ -39,7 +39,7 @@ list:
         image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1639943136i/59853848.jpg
         description: ""
         format: audiobook
-        completed: Completed
+        completed: 2024-06-10
       - title: "Legends & Lattes"
         author: Travis Baldree
         link: https://www.goodreads.com/book/show/61242426-legends-lattes
