@@ -1,6 +1,13 @@
 list:
   - year: 2024
     books:
+      - title: "Churchill, Hitler, and 'The Unnecessary War'"
+        author: Patrick J. Buchanan
+        link: https://www.goodreads.com/book/show/2258833.Churchill_Hitler_and_The_Unnecessary_War_
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320411134i/2258833.jpg
+        description: ""
+        format: audiobook
+        completed: In progress
       - title: "Sex at Dawn"
         author: Christopher Ryan, Cacilda Jethá
         link: https://www.goodreads.com/book/show/9522254-sex-at-dawn
@@ -26,6 +33,13 @@ list:
         description: ""
         format: audiobook
         completed: In progress
+      - title: "Occult Feminism: The Secret History of Women's Liberation"
+        author: Rachel Wilson
+        link: https://www.goodreads.com/en/book/show/59853848-occult-feminism
+        image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1639943136i/59853848.jpg
+        description: ""
+        format: audiobook
+        completed: Completed
       - title: "Legends & Lattes"
         author: Travis Baldree
         link: https://www.goodreads.com/book/show/61242426-legends-lattes
